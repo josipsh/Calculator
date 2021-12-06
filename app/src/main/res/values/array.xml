@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="equation_auto_size_values">
+        <item>25sp</item>
+        <item>30sp</item>
+        <item>35sp</item>
+        <item>40sp</item>
+        <item>45sp</item>
+        <item>50sp</item>
+        <item>55sp</item>
+        <item>60sp</item>
+        <item>65sp</item>
+        <item>70sp</item>
+        <item>75sp</item>
+    </array>
+    <array name="result_auto_size_values">
+        <item>15sp</item>
+        <item>20sp</item>
+        <item>25sp</item>
+        <item>30sp</item>
+        <item>35sp</item>
+        <item>40sp</item>
+        <item>45sp</item>
+        <item>50sp</item>
+    </array>
+</resources>

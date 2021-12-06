@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btnTextSize">20sp</dimen>
+    <dimen name="btnResultTextSize">25sp</dimen>
+    <dimen name="marginTop">15dp</dimen>
+    <dimen name="btnEquationTextSize">45sp</dimen>
+    <dimen name="tv_result_layout_height">65dp</dimen>
+    <dimen name="tv_equation_layout_height">100dp</dimen>
+</resources>
