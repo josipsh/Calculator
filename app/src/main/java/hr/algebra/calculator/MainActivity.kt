@@ -60,11 +60,17 @@ class MainActivity : AppCompatActivity() {
         binding.btnClosedBracket.setOnClickListener( operatorListener )
 
         binding.btnEquals.setOnClickListener{
-            val list = LinkedList<Variable>()
-            list.addAll(globalEquation)
+            try {
+                val list = LinkedList<Variable>()
+                list.addAll(globalEquation)
 
-            printResult(calculate(list), binding.tvEquation)
-            binding.tvResult.text = ""
+                val result = calculate(list)
+
+                printResult(result, binding.tvEquation)
+                binding.tvResult.text = ""
+            }catch (e: java.lang.Exception){
+                binding.tvResult.text = getString(R.string.error)
+            }
         }
 
         binding.btnDelete.setOnClickListener{
